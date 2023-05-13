@@ -76,7 +76,7 @@ class ProfilePageState extends State<ProfilePage> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Container(
-                            width: MediaQuery.of(context).size.width / 3.5,
+                            width: MediaQuery.of(context).size.width /8,
                             child: (imageFile == null)
                                 ? Image.asset("images/bayee.jpg", height: imageSize, width: imageSize,)
                                 : Image.file(imageFile!, height: imageSize, width: imageSize,),
