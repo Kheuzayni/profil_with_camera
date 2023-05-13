@@ -78,7 +78,7 @@ class ProfilePageState extends State<ProfilePage> {
                           Container(
                             width: MediaQuery.of(context).size.width / 3.5,
                             child: (imageFile == null)
-                                ? Image.network("https://codabee.com/wp-content/uploads/2018/03/cropped-Artboard-2.png", height: imageSize, width: imageSize,)
+                                ? Image.asset("images/bayee.jpg", height: imageSize, width: imageSize,)
                                 : Image.file(imageFile!, height: imageSize, width: imageSize,),
                           ),
                           Column(
