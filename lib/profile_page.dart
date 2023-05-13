@@ -222,7 +222,7 @@ class ProfilePageState extends State<ProfilePage> {
   Column myRadios() {
 
     List<Widget> w = [];
-    List<String> langs = ["Dart", "Swift", "Kotlin", "Java", "Python"];
+    List<String> langs = ["Dart", "Swift", "Kotlin", "Java", "Python", "React Js"];
     int index = langs.indexWhere((lang) => lang.startsWith(myProfile.favoriteLang));
     for (var x = 0; x < langs.length; x++) {
       Column c = Column(
